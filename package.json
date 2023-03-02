@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "@chainlink/contracts": "^0.4.1",
+    "@openzeppelin/contracts": "^4.6.0",
+    "@openzeppelin/contracts-upgradeable": "^4.6.0",
+    "@openzeppelin/upgrades": "^2.8.0",
+    "@truffle/hdwallet-provider": "^1.4.0",
+    "@uniswap/v2-core": "^1.0.1",
+    "@uniswap/v2-periphery": "^1.1.0-beta.0",
+    "chai": "^4.3.6",
+    "chai-as-promised": "^7.1.1",
+    "node-fetch": "^2.3.0",
+    "truffle-plugin-verify": "^0.5.26",
+    "web3": "^1.7.4"
+  },
+  "scripts": {
+    "dev": "ganache --fork https://mainnet.infura.io/v3/f73f335f778b4892b44a2d310b48429a --gasPrice 50000000 --gasLimit 100000000000 --chain.allowUnlimitedContractSize"
+  }
+}
